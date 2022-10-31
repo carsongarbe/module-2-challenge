@@ -1,0 +1,81 @@
+:root {
+    --main-color:#02471e86;
+    --accent-color:#7777cc;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+body {
+    font-family: Arial;
+     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  header {
+    padding: 40px;
+    text-align: center;
+    background: var(--main-color);
+    color: #fff;
+  }
+
+  nav {
+    display: flex;
+    background-color: var(--accent-color);
+  }
+
+  nav a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+  }
+  .about-me {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    
+  }
+
+  .image1 {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+     }
+
+  aside {
+    /* flex: ; */
+    background-color: var(--main-color);
+    padding: 40px;
+    text-align: left;
+    color: white;
+  }
+
+  footer {
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background: var(--accent-color);
+    color: #fff;
+    margin-top: auto;
+  }
+
+  .works {
+    flex: 4;
+    padding: 50px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+
+  .big-card {
+    padding: 20px;
+    margin: 30px 30px 60px 30px;
+  }
