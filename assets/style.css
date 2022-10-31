@@ -38,7 +38,7 @@ body {
     margin: 0;
     display: flex;
     text-align: center;
-    
+    font-size: large;
   }
 
   .image1 {
@@ -78,4 +78,9 @@ body {
   .big-card {
     padding: 20px;
     margin: 30px 30px 60px 30px;
+  }
+
+  .card {
+    padding: 10px;
+    margin: 20px 20px 40px 20px;
   }
